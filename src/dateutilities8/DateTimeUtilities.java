@@ -45,58 +45,7 @@ public class DateTimeUtilities {
         return LocalDateTime.now();
     }
     
-//    /**
-//     * This method accepts a LocalDateTime object as argument, formats it and
-//     * returns a string of type <code> DateTimeFormatter.ISO_LOCAL_DATE_TIME
-//     * </code>
-//     *
-//     * @param dateTime - a <code>LocalDateTime</code> object
-//     * @return the dateTime argument as a formatted string of type <code> DateTimeFormatter.ISO_LOCAL_DATE_TIME
-//     * </code>
-//     * @throws IllegalArgumentException if "dateTime" argument is null
-//     * @throws DateTimeException if an error occurs during formating
-//     */
-//    public final String toString (LocalDateTime dateTime) throws DateTimeException,IllegalArgumentException {
-//        if(dateTime == null){
-//            throw new IllegalArgumentException(NULL_ARGUMENT_MSG);
-//        }
-//        return dateTime.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME);   
-//    }
-//    
-//    
-//    /**
-//     * This method accepts a LocalDate object as argument, formats it and
-//     * returns a string of type <code> DateTimeFormatter.ISO_LOCAL_DATE </code>
-//     *
-//     * @param date - a <code>LocalDate</code> object
-//     * @return the date argument as a formatted string of type <code> DateTimeFormatter.ISO_LOCAL_DATE
-//     * </code>
-//     * @throws IllegalArgumentException if "date" argument is null
-//     * @throws DateTimeException if an error occurs during formating
-//     */
-//    public final String toString (LocalDate date) throws DateTimeException,IllegalArgumentException {
-//        if(date == null){
-//            throw new IllegalArgumentException(NULL_ARGUMENT_MSG);
-//        }
-//        return date.format(DateTimeFormatter.ISO_LOCAL_DATE);   
-//    }
-//    
-//    /**
-//     * This method accepts a LocalTime object as argument, formats it and
-//     * returns a string of type <code> DateTimeFormatter.ISO_LOCAL_TIME </code>
-//     *
-//     * @param time - a <code>LocalTime</code> object
-//     * @return the time argument as a formatted string of type <code> DateTimeFormatter.ISO_LOCAL_TIME
-//     * </code>
-//     * @throws IllegalArgumentException if "time" argument is null
-//     * @throws DateTimeException if an error occurs during formating
-//     */
-//    public final String toString (LocalTime time) throws DateTimeException, IllegalArgumentException {
-//        if(time == null){
-//            throw new IllegalArgumentException(NULL_ARGUMENT_MSG);
-//        }
-//        return time.format(DateTimeFormatter.ISO_LOCAL_TIME);   
-//    }
+
     
     /**
      * This method accepts LocalDateTime object and formats it according to the

@@ -25,7 +25,7 @@ public class DateTimeUtilities {
      * 
      * @return returns current time as LocalDate object ie Only Date Information  will be returned 
      */
-    public LocalDate dateNow(){
+    public final LocalDate dateNow(){
        return LocalDate.now();
     }
     
@@ -33,7 +33,7 @@ public class DateTimeUtilities {
      * 
      * @return returns current time as LocalTime object ie Only Time Information  will be returned
      */
-    public LocalTime timeNow(){
+    public final LocalTime timeNow(){
        return LocalTime.now();
     }
     
@@ -41,7 +41,7 @@ public class DateTimeUtilities {
      * 
      * @return returns current time as a LocalDateTime object ie Only Date and Time Information will be returned
      */
-    public LocalDateTime dateAndTimeNow(){
+    public final LocalDateTime dateAndTimeNow(){
         return LocalDateTime.now();
     }
     
